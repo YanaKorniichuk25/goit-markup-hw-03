@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.ul {
+  list-style-type: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.span-logo {
+  color: #2e2f42;
+}
+.menu {
+  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.menu:hover,
+.menu:active {
+  color: #404bbf;
+}
+.menu:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.contacts {
+  color: #434455;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+.section {
+  background-color: #2e2f42;
+}
+.section-title {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto' sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.section-button {
+  background: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.section-button:hover,
+.section-button:focus {
+  background-color: #404bbf;
+}
+.title-name {
+  color: #2e2f42;
+  font-family: 'Roboto' sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.title-text {
+  color: #434455;
+  font-family: 'Roboto' sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-title,
+.portfo {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  line-height: 1.11;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.portfo-item-name,
+.team-item-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+}
+.portfo-item-text,
+.team-item-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.h3 {
+  font-family: 'Roboto' sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.down-block {
+  background-color: #2e2f42;
+}
+.logo-light {
+  color: #f4f4fd;
+}
+.down-block-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
