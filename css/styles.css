@@ -35,7 +35,35 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.section-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  line-height: 1.11;
+}
+.title-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 /* header */
 .header .container {
   line-height: 60px;
@@ -98,27 +126,31 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   margin-right: 76px;
 }
 .page-nav .span-logo {
   color: #2e2f42;
 }
+.title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
-.section-title {
-  color: #fff;
-  text-align: center;
-  font-family: 'Roboto' sans-serif;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  display: inline-block;
-  max-width: 496px;
-  margin-bottom: 48px;
+.section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .section-button {
   background: #4d5ae5;
@@ -127,21 +159,39 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .section-button:hover,
 .section-button:focus {
   background-color: #404bbf;
 }
-.title-name {
-  color: #2e2f42;
-  font-family: 'Roboto' sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+.section-two {
+  padding: 120px 0 120px 0;
+}
+.section-two-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: calc((100% - 72px) / 4);
+}
+.section-two .title-name {
+  margin-bottom: 8px;
+}
+.section-two-list {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 24px;
 }
 .title-text {
   color: #434455;
@@ -154,51 +204,66 @@ img {
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0 120px 0;
 }
-.team-title,
-.portfo {
-  color: #2e2f42;
+.team .team-title {
+  margin-bottom: 72px;
+}
+.team .title-name {
+  margin-bottom: 8px;
+}
+.section-three-content {
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.team-item-name {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+  align-items: center;
+}
+.team-item-text {
   text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  line-height: 1.11;
 }
 .team-item {
   background-color: #ffffff;
-}
-.portfo-item-name,
-.team-item-name {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-  line-height: 1.2;
-}
-.portfo-item-text,
-.team-item-text {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.h3 {
-  font-family: 'Roboto' sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  width: calc((100% - 72) / 4);
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .down-block {
-  background-color: #2e2f42;
-}
-.logo-light {
   color: #f4f4fd;
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.down-block .logo-light {
+  color: #f4f4fd;
+}
+.footer-logo {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  margin-right: 76px;
+  margin-bottom: 16px;
 }
 .down-block-text {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
+  max-width: 264px;
 }
