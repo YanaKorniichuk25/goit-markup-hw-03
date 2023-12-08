@@ -34,7 +34,6 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 .section-title {
   color: #fff;
@@ -95,6 +94,7 @@ img {
   font-weight: 500;
   display: flex;
   padding: 24px 0 24px 0;
+  align-items: center;
 }
 .container .page-nav {
   display: flex;
@@ -275,8 +275,8 @@ img {
 .portfo-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  list-style: none;
+  gap: 48px 24px;
+  column-gap: 12px;
   row-gap: 48px;
 }
 .portfo-item {
