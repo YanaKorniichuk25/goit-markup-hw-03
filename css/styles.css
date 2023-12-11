@@ -212,7 +212,6 @@ img {
   margin-bottom: 8px;
 }
 .section-three-content {
-  display: flex;
   width: 232px;
   flex-direction: column;
   justify-content: center;
